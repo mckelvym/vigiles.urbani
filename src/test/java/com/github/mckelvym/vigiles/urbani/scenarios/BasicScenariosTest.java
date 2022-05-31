@@ -3,7 +3,7 @@ package com.github.mckelvym.vigiles.urbani.scenarios;
 import java.util.List;
 
 import org.junit.Assert;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 import com.github.mckelvym.vigiles.urbani.api.City;
 import com.github.mckelvym.vigiles.urbani.api.CityNode;
@@ -11,10 +11,9 @@ import com.github.mckelvym.vigiles.urbani.api.FireDispatch;
 import com.github.mckelvym.vigiles.urbani.api.Firefighter;
 import com.github.mckelvym.vigiles.urbani.api.Pyromaniac;
 import com.github.mckelvym.vigiles.urbani.api.exceptions.FireproofBuildingException;
-import com.github.mckelvym.vigiles.urbani.firefighters.FireDispatchImpl;
 import com.github.mckelvym.vigiles.urbani.impls.CityImpl;
 
-class BasicScenariosTest {
+public class BasicScenariosTest {
 
 	@Test
 	public void singleFire() throws FireproofBuildingException {
