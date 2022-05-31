@@ -40,7 +40,15 @@ A Firefighter knows their own location and how far they have traveled throughout
 
 ## Running
 
-Run `mvn compile test`. All tests should complete successfully. 
+If Maven is installed:
+
+ Run `mvn compile test`. 
+
+If Maven is not installed:
+
+ Run `./mvnw compile test`.
+
+All tests should complete successfully. 
 
 Example output:
 
